@@ -76,7 +76,7 @@
                   </div>
               </div>
               <div class="m-2 d-flex justify-content-center mx-auto">
-                  <div class="btn-group">
+                  <div class=" mb-3">
                       <button type="submit" class="btn btn-primary">Convert</button>   
                       <button class="btn btn-info" onclick="clipboard('copy')">Copy</button>
                   </div>
