@@ -35,7 +35,7 @@
           <div class="col-lg-12 ">
               <div class="row m-2 justify-content-center">
                   <div class="col-lg-6 text-center">						
-                      <label for="temp">Temperature</label>						
+                      <label for="temp" class="text-light">Temperature</label>						
                       <input class="form-control "  type="text" value="<?php if (isset($_POST['originaltemp'])) echo $_POST['originaltemp'];?>" name="originaltemp" size="7" maxlength="7" id="temp">				
                   </div>				
               </div>
@@ -56,7 +56,7 @@
           <div class="col-lg-12">
               <div class="row m-2 justify-content-center">
                   <div class="col-lg-6 text-center">
-                      <label for="convertedtemp">Converted Temperature</label>
+                      <label for="convertedtemp" class="text-light">Converted Temperature</label>
                       <input type="text" class="form-control" readonly id="finalValue" value="<?php if (isset($_POST['originaltemp'])) echo round($convertedTemp, 1);?>" 
                       name="convertedtemp" size="7" maxlength="7" id="convertedtemp">
                   </div>
